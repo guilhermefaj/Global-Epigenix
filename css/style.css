@@ -50,6 +50,16 @@ header {
   background-attachment: fixed;
 }
 
+.bgImage {
+  background-position: center top;
+  height: 100vh;
+}
+
+.bgImage1 {
+  background-image: linear-gradient(rgba(61, 90, 255, 0.2), rgba(0, 0, 0, 0)),
+    url("/img/Background1.png");
+}
+
 nav {
   display: flex;
   align-items: center;
