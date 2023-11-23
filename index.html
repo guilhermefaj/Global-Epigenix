@@ -40,10 +40,10 @@
           </a>
           <ul>
             <a href="index.html">home</a>
-            <a href="">Mortalidade Infantil</a>
-            <a href="">Doenças Transmissíveis</a>
-            <a href="">Doenças Não Transmissíveis</a>
-            <a href="">Saúde Geral</a>
+            <a href="mi.html">Mortalidade Infantil</a>
+            <a href="dt.html">Doenças Transmissíveis</a>
+            <a href="dnt.html">Doenças Não Transmissíveis</a>
+            <a href="sg.html">Saúde Geral</a>
           </ul>
         </nav>
         <section class="banner">
@@ -58,15 +58,14 @@
         </section>
       </div>
     </header>
-    <section>
+    <section class="about-section">
       <div class="container-about">
         <div class="about">
           <h3>A Epigenética</h3>
-          <p>
-            A epigenética estuda as mudanças na expressão de genes sem alterar o
-            DNA. Ela impacta nossa saúde e desenvolvimento ao interagir com o
-            ambiente.
+          <p class="justify-text">
+            A epigenética é o estudo das mudanças na expressão genética que não envolvem alterações na sequência de DNA. Ela desempenha um papel crucial na regulação dos genes em resposta ao ambiente.
           </p>
+          <button class="btnclick">sobre nós</button>
         </div>
         <div>
           <img src="./img/3dhandGene.png" alt="mão 3d com um genoma" />
@@ -75,58 +74,69 @@
 
       <div class="container-about">
         <div>
-          <img src="./img/3dBaby.png" alt="Bebê em 3d" />
+          <a href="mi.html">
+            <img src="./img/3dBaby.png" alt="Bebê em 3d" />
+          </a>
         </div>
         <div class="about">
           <h3>Mortalidade Infantil</h3>
-          <p>
-            A epigenética influencia o desenvolvimento fetal e a saúde do
-            recém-nascido, reduzindo os índices de mortalidade infantil.
+          <p class="justify-text">
+            A epigenética desempenha um papel essencial na mortalidade infantil, influenciando o desenvolvimento fetal e a saúde dos recém-nascidos. Compreender essas influências é fundamental para a prevenção de condições que podem levar à morte precoce.
           </p>
-          <button class="btn animate">Life's Code</button>
+          <a href="mi.html"">
+            <button class="btnclick">Saiba mais</button>
+          </a>
         </div>
       </div>
 
       <div class="container-about">
         <div class="about">
           <h3>Doenças Transmissíveis</h3>
-          <p>
-            A epigenética modula a resposta do corpo a doenças infecciosas,
-            abrindo portas para novas abordagens terapêuticas.
+          <p class="justify-text">
+            Na área das doenças transmissíveis, a epigenética impacta a resposta do corpo a infecções virais e bacterianas, oferecendo novas perspectivas para tratamentos e medidas preventivas.
           </p>
-          <a href=""></a>
+          <a href="dt.html"">
+            <button class="btnclick">Saiba mais</button>
+          </a>
         </div>
         <div>
-          <img src="./img/3dMask.png" alt="máscara 3d com termômetro" />
+          <a href="dt.html">
+            <img src="./img/3dMask.png" alt="máscara 3d com termômetro" />
+          </a>
         </div>
       </div>
 
       <div class="container-about">
         <div>
-          <img src="./img/3dHeart.png" alt="coração 3d com medicamentos" />
+          <a href="dnt.html">
+            <img src="./img/3dHeart.png" alt="coração 3d com medicamentos" />
+          </a>
         </div>
         <div class="about">
           <h3>Doenças Não Transmissíveis</h3>
-          <p>
-            Doenças como câncer e diabetes têm componentes epigenéticos, ligados
-            a fatores de estilo de vida, dieta e exposição a toxinas.
+          <p class="justify-text">
+            Doenças como câncer e diabetes têm componentes epigenéticos que são influenciados por fatores de estilo de vida, dieta e exposição a toxinas. O estudo desses aspectos pode levar a estratégias mais eficazes de tratamento e prevenção.
           </p>
-          <a href=""></a>
+          <a href="dnt.html"">
+            <button class="btnclick">Saiba mais</button>
+          </a>
         </div>
       </div>
 
       <div class="container-about">
         <div class="about">
           <h3>Saúde Geral</h3>
-          <p>
-            A epigenética desempenha um papel amplo na regulação do
-            envelhecimento, resposta ao estresse e equilíbrio metabólico,
-            afetando nossa saúde geral.
+          <p class="justify-text">
+            A epigenética é uma peça fundamental na regulação do envelhecimento, resposta ao estresse e equilíbrio metabólico, afetando a saúde em geral. Compreender esses mecanismos é crucial para promover um bem-estar duradouro.
           </p>
-          <a href=""></a>
+          <a href="sg.html"">
+            <button class="btnclick">Saiba mais</button>
+          </a>
         </div>
         <div>
-          <img src="./img/3dWorld.png" alt="máscara 3d com termômetro" />
+          <a href="sg.html">
+            <img src="./img/3dWorld.png" alt="máscara 3d com termômetro" />
+          </a>
         </div>
       </div>
     </section>
@@ -146,7 +156,7 @@
               </div>
               <div class="px-4 d-flex flex-column">
                 <h3 class="f-title f_600 t_color f_size_18">Quem sou eu</h3>
-                <p class="aboutmetext">
+                <p class="justify-text">
                   Olá, me chamo Guilherme Junqueira e sou um engenheiro de
                   software, empreendedor e uma pessoa multidisciplinar nata.
                   Estou sempre pensando em formas inovadoras para melhorar a
@@ -176,7 +186,7 @@
                   class="form-control memail"
                   placeholder="Email"
                 />
-                <button class="btn btn_get btn_get_two" type="submit">
+                <button class="btnclick btn_get btn_get_two" type="submit">
                   Inscrever
                 </button>
                 <p class="mchimp-errmessage" style="display: none"></p>
