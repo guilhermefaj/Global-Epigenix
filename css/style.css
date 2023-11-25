@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+@import url("variables.css");
 
 * {
   margin: 0;
@@ -6,11 +7,11 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: "Noto Sans", sans-serif;
+  font-family: var(--font-primary);
 }
 
 body {
-  background-color: #f1f6fc31;
+  background-color: var(--bg-color);
 }
 
 h3 {
@@ -18,7 +19,7 @@ h3 {
 }
 
 p {
-  color: #0000009c;
+  color: var(--color-p-text);
 }
 
 .container {
@@ -29,8 +30,8 @@ p {
 }
 
 .btnclick {
-  background-color: #4f9cf9;
-  color: white;
+  background-color: var(--primary-color-btn);
+  color: var(--color-btn-text);
   padding: 15px 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -41,7 +42,7 @@ p {
 }
 
 .btnclick:hover {
-  background-color: #3580db;
+  background-color: var(--primary-color-btn-hover);
 }
 
 header {
@@ -85,7 +86,7 @@ nav ul a {
   width: 130px;
   height: 45px;
   text-align: center;
-  color: white;
+  color: var(--color-btn-text);
   font-weight: 600;
   margin: 0 25px;
   text-transform: uppercase;
@@ -97,7 +98,7 @@ nav ul a {
 
 nav ul a::after {
   content: "";
-  background-color: #4f9cf9;
+  background-color: var(--primary-color-btn);
   height: 2px;
   width: 0%;
   display: block;
@@ -132,7 +133,7 @@ nav ul a:hover::after {
 
 .banner .banner-text button {
   border: none;
-  background-color: white;
+  background-color: var(--secondary-color-btn);
   width: fit-content;
   font-size: 20px;
   font-weight: lighter;
@@ -147,7 +148,7 @@ nav ul a:hover::after {
 
 @keyframes animate-outline {
   from {
-    outline: 0px solid white;
+    outline: 0px solid var(--secondary-color-btn);
   }
   to {
     outline: 10px solid rgba(255, 255, 255, 0.074);
@@ -166,7 +167,7 @@ nav ul a:hover::after {
   flex-direction: column;
   flex-wrap: wrap;
   width: 450px;
-  color: #20384c;
+  color: var(--color-title-text);
 }
 
 .container-about img {
@@ -182,7 +183,7 @@ nav ul a:hover::after {
 /* Footer */
 
 .new_footer_area {
-  background: #fbfbfd;
+  background: var(--bg-color-footer);
 }
 
 .new_footer_top {
@@ -211,14 +212,14 @@ nav ul a:hover::after {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
-  color: #7f88a6;
+  color: var(--color-footer-bottom);
   padding: 27px 0px;
 }
 .new_footer_top .company_widget p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #6a7695;
+  color: var(--color-footer-p-text);
   margin-bottom: 20px;
 }
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -227,12 +228,12 @@ nav ul a:hover::after {
 }
 .btn_get_two:hover {
   background: transparent;
-  color: #5e2ced;
+  color: var(--color-footer-btn-two-text-hover);
 }
 .btn_get:hover {
-  color: #fff;
-  background: #6754e2;
-  border-color: #6754e2;
+  color: var(--color-footer-btn-text-hover);
+  background: var(--color-footer-btn-hover);
+  border-color: var(--color-footer-btn-hover);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -261,7 +262,7 @@ nav ul a:hover::after {
   height: 44px;
   line-height: 43px;
   background: transparent;
-  border: 1px solid #e2e2eb;
+  border: 1px solid var(--color-footer-btn-social-border);
   font-size: 24px;
 }
 .f_social_icon a {
@@ -270,9 +271,9 @@ nav ul a:hover::after {
   border-radius: 50%;
   font-size: 14px;
   line-height: 45px;
-  color: #858da8;
+  color: var(--color-footer-btn-social-text);
   display: inline-block;
-  background: #ebeef5;
+  background: var(--color-footer-btn-social);
   text-align: center;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -293,14 +294,14 @@ nav ul a:hover::after {
 }
 
 .new_footer_top .f_social_icon a:hover {
-  background: #4f9cf9;
-  border-color: #4f9cf9;
-  color: white;
+  background: var(--primary-color-btn);
+  border-color: var(--primary-color-btn);
+  color: var(--color-btn-text);
 }
 
 .new_footer_top .f-title {
   margin-bottom: 20px;
-  color: #263b5e;
+  color: var(--color-footer-title-text);
 }
 .f_600 {
   font-weight: 600;
@@ -314,10 +315,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #20384c;
+  color: var(--color-title-text);
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
-  color: #6a7695;
+  color: var(#6a7695);
 }
 
 .new_footer_top .footer_bg {

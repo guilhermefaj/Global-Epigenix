@@ -1,0 +1,22 @@
+:root {
+    --bg-color: #f1f6fc31;
+    --primary-color-btn: #4f9cf9;
+    --primary-color-btn-hover: #3580db; 
+    --secondary-color-btn: #fff;
+    --color-btn-text: #fff;
+    --color-p-text: #0000009c;
+    --color-title-text: #20384c;
+    --font-primary: "Noto Sans", sans-serif;
+  
+    --bg-color-footer: #fbfbfd;
+    --color-footer-title-text: #263b5e;
+    --color-footer-bottom: #7f88a6;
+    --color-footer-p-text: #6a7695;
+    --color-footer-btn-two-text-hover: #5e2ced;
+    --color-footer-btn-text-hover: #fff;
+    --color-footer-btn-hover: #6754e2;
+    --color-footer-btn-social-border: #e2e2eb;
+    --color-footer-btn-social-text: #858da8;
+    --color-footer-btn-social: #ebeef5;
+    --color-footer-a-text: #6a7695;
+  }
