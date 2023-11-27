@@ -60,6 +60,12 @@ header {
     url("/img/Background1.png");
 }
 
+.bgImage2 {
+  background-image: linear-gradient(rgba(61, 90, 255, 0.2), rgba(0, 0, 0, 0)),
+    url("/img/Background1.png");
+  height: 100px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -75,8 +81,6 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
-  
-
 }
 
 nav ul a {
@@ -161,20 +165,17 @@ nav ul a:hover::after {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 35px 0;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 450px;
   color: #20384c;
+  align-items: flex-start;
 }
 
 .container-about img {
   max-width: 300px;
-  /* min-width: 250px; */
 }
 
 .container-about img:hover {
@@ -194,7 +195,6 @@ nav ul a:hover::after {
   overflow-x: hidden;
 }
 .container-footer {
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: center;
