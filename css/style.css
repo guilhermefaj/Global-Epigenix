@@ -154,6 +154,32 @@ nav ul a:hover::after {
   }
 }
 
+.about_us {
+  background: linear-gradient(180deg, #D5E0E3 0%, #B8C6E9 100%);
+}
+
+.container-iframe {
+  max-width: 900px;
+}
+
+.container-iframe-video {
+  padding: 50% 0 0 0;
+}
+
+.btn-chevron {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.chevron {
+  font-size: 30px;
+}
+
+.img-professional {
+  max-width: 250px;
+}
+
 .container-about {
   display: flex;
   justify-content: space-evenly;
