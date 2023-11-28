@@ -164,6 +164,10 @@ nav ul a:hover::after {
   }
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+      filter: invert(1);
+    }
 .container-about {
   display: flex;
   justify-content: space-evenly;
@@ -363,5 +367,13 @@ h6 {
     left: 100%;
   }
 }
+
+.carousel-item > img {
+  max-width: 250px;
+}
+.carousel-item > * {
+  padding: 0.5em;
+}
+
 
 /*************footer End*****************/
