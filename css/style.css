@@ -166,8 +166,8 @@ nav ul a:hover::after {
 
 .carousel-control-prev,
 .carousel-control-next {
-      filter: invert(1);
-    }
+  filter: invert(1);
+}
 .container-about {
   display: flex;
   justify-content: space-evenly;
