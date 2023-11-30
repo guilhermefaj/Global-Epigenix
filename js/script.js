@@ -14,3 +14,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function logEmail() {
+  // Obter o valor do campo de email
+  var email = document.getElementsByName('EMAIL')[0].value;
+
+  // Logar o email no console
+  console.log('Email digitado:', email);
+
+  // Esconder o formulário
+  document.getElementsByName('formdiv')[0].style.display = 'none';
+}
