@@ -30,6 +30,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header class="bgImage bgImage1">
@@ -97,13 +98,7 @@
           <div class="col-md-8 col-lg-8 col-sm-10 mx-auto">
             <div class="video-container">
               <!-- Incorporar o vídeo aqui -->
-              <iframe
-                src="https://www.youtube.com/embed/aDACorIaxNw?si=9pAij3wqXqzmvOBk"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/3q0cGaElClc?si=u9PXqSQZC_SGn4nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -130,13 +125,7 @@
             />
             <div class="">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Mollitia necessitatibus animi, quo molestias in molestiae? Porro
-                libero laudantium voluptatem est maiores quas hic dicta modi
-                esse rem illum, beatae minus sequi similique nihil distinctio
-                inventore quisquam quam rerum! Molestiae rerum nemo commodi.
-                Nisi ratione vitae nam, maiores officiis architecto
-                consequuntur.
+                Sou um engenheiro de software apaixonado por desafios e entusiasta de tecnologia. Acredito no impacto positivo que a inovação pode ter na vida das pessoas e estou comprometido em contribuir para esse avanço. Minha jornada acadêmica e profissional é guiada pela busca contínua por conhecimento e pela dedicação em criar soluções que não apenas resolvam problemas, mas que também melhorem a experiência humana. Vamos juntos construir um futuro onde a tecnologia seja uma aliada para transformar o mundo de maneira positiva.
               </p>
             </div>
           </div>
@@ -151,19 +140,13 @@
             />
             <div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Mollitia necessitatibus animi, quo molestias in molestiae? Porro
-                libero laudantium voluptatem est maiores quas hic dicta modi
-                esse rem illum, beatae minus sequi similique nihil distinctio
-                inventore quisquam quam rerum! Molestiae rerum nemo commodi.
-                Nisi ratione vitae nam, maiores officiis architecto
-                consequuntur.
+                Olá, me chamo Guilherme Junqueira e sou um engenheiro de software, empreendedor e uma pessoa multidisciplinar nata. Estou sempre pensando em formas inovadoras para melhorar a vida das pessoas com o poder da tecnologia.
               </p>
             </div>
           </div>
           <!-- Slide 3 -->
           <div class="carousel-item">
-            <h4>Giovanna Hatten</h4>
+            <h4>Giovana Hatten</h4>
             <img
               src="./img/Professional Profile - Giovana.png"
               class="img-thumbnail float-left"
@@ -171,13 +154,7 @@
             />
             <div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Mollitia necessitatibus animi, quo molestias in molestiae? Porro
-                libero laudantium voluptatem est maiores quas hic dicta modi
-                esse rem illum, beatae minus sequi similique nihil distinctio
-                inventore quisquam quam rerum! Molestiae rerum nemo commodi.
-                Nisi ratione vitae nam, maiores officiis architecto
-                consequuntur.
+                Olá, sou Giovana Hatten, engenheira de software. Minha paixão por tecnologia se estende a diversas áreas, incluindo saúde. Estou sempre em busca de inovações para aprimorar a qualidade de vida das pessoas.
               </p>
             </div>
           </div>
@@ -333,12 +310,12 @@
             <!-- Seção de informações pessoais -->
 
             <!-- Seção de inscrição -->
-            <div data-wow-delay="0.2s">
+            <div name="formdiv" data-wow-delay="0.2s">
               <h3 class="f-title f_600 t_color f_size_18 p-3">Se inscreva!</h3>
               <p>
                 Acompanhe as novidades do nosso trabalho se inscrevendo abaixo!
               </p>
-              <form
+              <form name="myForm"
                 action="#"
                 class="f_subscribe_two mailchimp"
                 method="post"
@@ -352,7 +329,7 @@
                   placeholder="Email"
                   style="display: inline-block; width: 70%"
                 />
-                <button class="btnclick btn_get btn_get_two" type="submit">
+                <button class="btnclick btn_get btn_get_two" type="button" onclick="logEmail()">
                   Inscrever
                 </button>
                 <p class="mchimp-errmessage" style="display: none"></p>
