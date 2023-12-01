@@ -79,7 +79,9 @@
             </div>
           </nav>
         </div>
-        <section class="banner">
+        <section
+          class="banner d-flex align-items-center justify-content-center"
+        >
           <div class="banner-text">
             <img
               src="./img/Logo Text - Global Epigenix.png"
@@ -98,7 +100,15 @@
           <div class="col-md-8 col-lg-8 col-sm-10 mx-auto">
             <div class="video-container">
               <!-- Incorporar o vídeo aqui -->
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/3q0cGaElClc?si=u9PXqSQZC_SGn4nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/3q0cGaElClc?si=u9PXqSQZC_SGn4nY&autoplay=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
@@ -123,9 +133,13 @@
               class="img-thumbnail float-left rounded-circle"
               alt="Membro 1"
             />
-            <div class="">
+            <div class="col-lg-4 col-md-6 mx-auto justify-text">
               <p>
-                Sou um engenheiro de software apaixonado por desafios e entusiasta de tecnologia. Acredito no impacto positivo que a inovação pode ter na vida das pessoas e estou comprometido em contribuir para esse avanço. Minha jornada acadêmica e profissional é guiada pela busca contínua por conhecimento e pela dedicação em criar soluções que não apenas resolvam problemas, mas que também melhorem a experiência humana. Vamos juntos construir um futuro onde a tecnologia seja uma aliada para transformar o mundo de maneira positiva.
+                Como engenheiro de software, sou apaixonado por tecnologia e
+                inovação. Busco constantemente conhecimento para criar soluções
+                que melhorem a experiência das pessoas. Estou comprometido em
+                contribuir para um futuro onde a tecnologia seja uma aliada na
+                transformação positiva do mundo.
               </p>
             </div>
           </div>
@@ -138,9 +152,12 @@
               class="img-thumbnail float-left rounded-circle"
               alt="Membro 2"
             />
-            <div>
+            <div class="col-lg-4 col-md-6 mx-auto justify-text">
               <p>
-                Olá, me chamo Guilherme Junqueira e sou um engenheiro de software, empreendedor e uma pessoa multidisciplinar nata. Estou sempre pensando em formas inovadoras para melhorar a vida das pessoas com o poder da tecnologia.
+                Olá, me chamo Guilherme Junqueira e sou um engenheiro de
+                software, empreendedor e uma pessoa multidisciplinar nata. Estou
+                sempre pensando em formas inovadoras para melhorar a vida das
+                pessoas com o poder da tecnologia.
               </p>
             </div>
           </div>
@@ -149,12 +166,15 @@
             <h4>Giovana Hatten</h4>
             <img
               src="./img/Professional Profile - Giovana.png"
-              class="img-thumbnail float-left rounded-circle "
+              class="img-thumbnail float-left rounded-circle"
               alt="Membro 2"
             />
-            <div>
+            <div class="col-lg-4 col-md-6 mx-auto justify-text">
               <p>
-                Olá, sou Giovana Hatten, engenheira de software. Minha paixão por tecnologia se estende a diversas áreas, incluindo saúde. Estou sempre em busca de inovações para aprimorar a qualidade de vida das pessoas.
+                Olá, sou Giovana Hatten, engenheira de software. Minha paixão
+                por tecnologia se estende a diversas áreas, incluindo saúde.
+                Estou sempre em busca de inovações para aprimorar a qualidade de
+                vida das pessoas.
               </p>
             </div>
           </div>
@@ -189,11 +209,15 @@
         <div class="col-12">
           <div class="container-about row flex-column-reverse flex-lg-row">
             <div class="about col-lg-6 col-md-12 order-md-0 order-lg-0">
-              <h3>A Epigenética</h3>
+              <h3>A Epigenética e os dados</h3>
               <p class="justify-text">
-                A epigenética é o estudo das mudanças na expressão genética que
-                não envolvem alterações na sequência de DNA. Ela desempenha um
-                papel crucial na regulação dos genes em resposta ao ambiente.
+                A epigenética, quando relacionada à ciência de dados, é a
+                análise das modificações na expressão genética que não se
+                baseiam em alterações na sequência do DNA. Essa disciplina
+                desempenha um papel fundamental na identificação e compreensão
+                das respostas genéticas aos estímulos ambientais, contribuindo
+                para a interpretação de dados genômicos e oferecendo insights
+                valiosos sobre como o ambiente influencia a expressão de genes.
               </p>
               <button class="btnclick">sobre nós</button>
             </div>
@@ -315,7 +339,8 @@
               <p>
                 Acompanhe as novidades do nosso trabalho se inscrevendo abaixo!
               </p>
-              <form name="myForm"
+              <form
+                name="myForm"
                 action="#"
                 class="f_subscribe_two mailchimp"
                 method="post"
@@ -329,7 +354,11 @@
                   placeholder="Email"
                   style="display: inline-block; width: 70%"
                 />
-                <button class="btnclick btn_get btn_get_two" type="button" onclick="logEmail()">
+                <button
+                  class="btnclick btn_get btn_get_two"
+                  type="button"
+                  onclick="logEmail()"
+                >
                   Inscrever
                 </button>
                 <p class="mchimp-errmessage" style="display: none"></p>
